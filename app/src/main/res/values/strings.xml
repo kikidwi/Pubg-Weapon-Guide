@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Pubg Weapon Details</string>
+
+    <string name="weapon_name">Nama Senjata</string>
+    <string name="type">Type Senjata</string>
+    <string name="ammo">ammo</string>
+    <string name="about">About</string>
+
+    <string-array name="data_name">
+        <item>M416</item>
+        <item>M762</item>
+        <item>M249</item>
+        <item>Kar98k</item>
+        <item>Thomson</item>
+        <item>UZI</item>
+        <item>UMP45</item>
+        <item>AWM</item>
+        <item>VSS</item>
+        <item>SKS</item>
+    </string-array>
+
+    <string-array name="data_type">
+        <item>Assault Rifles (AR)</item>
+        <item>Assault Rifles (AR)</item>
+        <item>Light Machine Guns (LMGs)</item>
+        <item>Lever Action Sniper Rifles</item>
+        <item>SubMachine Guns (SMGs)</item>
+        <item>SubMachine Guns (SMGs)</item>
+        <item>SubMachine Guns (SMGs)</item>
+        <item>Lever Action Sniper Rifles</item>
+        <item>Automatic Sniper Rifles</item>
+        <item>Automatic Sniper Rifles</item>
+    </string-array>
+
+    <string-array name="data_ammo">
+        <item>5.56mm</item>
+        <item>7.62mm</item>
+        <item>5.56mm</item>
+        <item>7.62mm</item>
+        <item>.45 ACP</item>
+        <item>9mm</item>
+        <item>.45 ACP</item>
+        <item>.300 Magnum</item>
+        <item>9mm</item>
+        <item>7.62mm</item>
+    </string-array>
+
+    <integer-array name="data_img">
+        <item>@drawable/m416</item>
+        <item>@drawable/m762</item>
+        <item>@drawable/m429</item>
+        <item>@drawable/kar98</item>
+        <item>@drawable/thomson</item>
+        <item>@drawable/uzi</item>
+        <item>@drawable/ump45</item>
+        <item>@drawable/awm</item>
+        <item>@drawable/vss</item>
+        <item>@drawable/sks</item>
+    </integer-array>
+
+    <string-array name="data_magazine">
+        <item>30</item>
+        <item>30</item>
+        <item>75</item>
+        <item>5</item>
+        <item>30</item>
+        <item>25</item>
+        <item>25</item>
+        <item>5</item>
+        <item>10</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="data_reloadTime">
+        <item>2.1s</item>
+        <item>2.9s</item>
+        <item>8.2s</item>
+        <item>4.0s</item>
+        <item>2.5s</item>
+        <item>3.1s</item>
+        <item>2.5s</item>
+        <item>4.6s</item>
+        <item>4.0s</item>
+        <item>4.0s</item>
+    </string-array>
+
+    <string-array name="data_desc">
+        <item>M416 adalah senapan serbu di game PUBG yang sangat populer karena memiliki akurasi yang baik, recoil yang rendah, dan dapat dilengkapi dengan berbagai attachment.</item>
+        <item>M762 adalah senjata serbu kaliber 7,62mm yang tersedia dalam mode bertarung jarak menengah hingga jauh di PUBG Mobile. Senjata ini mempunyai damage per hit yang tinggi dan recoil yang kuat, sehingga diperlukan skill dalam menahan recoil saat menembak. M762 memiliki mode tembakan otomatis dan burst, namun mode burst tidak terlalu stabil dalam mengendalikan recoil.</item>
+        <item>M249 adalah senapan mesin ringan yang tersedia di PUBG. Senjata ini menggunakan peluru kaliber 5.56mm dan memiliki kecepatan tembak yang tinggi. Namun jarak tembak dan akurasi sedikit menurun setelah menembak dalam jumlah peluru yang banyak. Senjata ini cocok digunakan untuk menembak musuh dalam jarak dekat hingga menengah</item>
+        <item>Kar98k adalah senapan bolt-action (laras tunggal dengan mekanisme bolt) yang tersedia di game PUBG. Senjata ini menggunakan amunisi 7.62mm dan dapat membunuh musuh dengan satu tembakan ke kepala atau badan. Kar98k memiliki jangkauan yang jauh dan akurasinya yang tinggi, sehingga cocok digunakan untuk menembak dari jarak jauh</item>
+        <item>Senjata Thomson di PUBG merupakan senjata submachine gun (SMG) yang cukup populer di game ini. Senjata ini menggunakan peluru kaliber .45 ACP dan memiliki rate of fire yang tinggi, namun damage per shot-nya tergolong sedang.</item>
+        <item>UZI adalah senjata submachine gun yang dapat ditemukan di dalam game PUBG. Senjata ini memiliki kecepatan tembakan yang tinggi dan ringan sehingga mudah digunakan dalam jarak dekat atau pertempuran jarak menengah. </item>
+        <item>UMP45 adalah senapan submachine yang dapat ditemukan di PUBG. Senjata ini menggunakan peluru 0.45 ACP dan biasanya ditemukan bersama dengan amunisi dan aksesori yang sesuai. UMP45 memiliki kecepatan tembak tinggi dan kecepatan proyektil yang cepat, serta kontrol yang baik pada jarak dekat dan sedang.</item>
+        <item>AWM (Arctic Warfare Magnum) adalah senapan runduk kelas berat yang tersedia di permainan PUBG. Senjata ini menggunakan peluru kaliber .300 Magnum yang sangat mematikan dan bisa membunuh musuh dengan satu tembakan di bagian tubuh manapun, kecuali bagian kaki dan lengan.</item>
+        <item>Senjata VSS (Vintovka Snayperskaya Specialnaya) adalah senapan sniper semi-otomatis yang dapat ditemukan di game PUBG. Senjata ini menggunakan peluru subsonik dan dilengkapi dengan built-in suppressor, yang membuatnya sangat efektif dalam situasi yang memerlukan ketenangan dan ketelitian, terutama dalam jarak dekat hingga menengah. </item>
+        <item>SKS adalah senjata semi-otomatis di PUBG yang menggunakan amunisi kaliber 7.62mm. Senjata ini cocok untuk pertarungan jarak menengah dan memiliki tingkat kerusakan yang tinggi, namun dengan tingkat recoil (ketidakstabilan) yang sedang. </item>
+    </string-array>
+
+</resources>

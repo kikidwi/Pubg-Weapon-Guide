@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailWeapon"
+    android:padding="16dp"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/m416"
+        android:id="@+id/Image"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:layout_below="@+id/Image"
+        android:text="Nama Senjata"
+        android:textAlignment="center"
+        android:textSize="23dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textDesc"
+        android:text="Deskripsi"
+        android:layout_below="@+id/name"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/desc"
+        android:layout_below="@+id/textDesc"
+        android:text="ini adalah deskripsi sandfni anvinadvi nvknanvf vnaknvaovnaf sfnsifn insifns insfind"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textType"
+        android:layout_below="@+id/desc"
+        android:layout_marginTop="10dp"
+        android:text="Type                :"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textType"
+        android:layout_below="@id/desc"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="8dp"
+        android:text="ini type senjata"
+        android:id="@+id/typeSenjata"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textAmmo"
+        android:layout_below="@+id/textType"
+        android:layout_marginTop="10dp"
+        android:text="Ammo             :"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textType"
+        android:layout_below="@id/typeSenjata"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="8dp"
+        android:text="ini Ammo senjata"
+        android:id="@+id/Ammo"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textMagazine"
+        android:layout_below="@+id/textAmmo"
+        android:layout_marginTop="10dp"
+        android:text="Magazine       :"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textType"
+        android:layout_below="@id/Ammo"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="8dp"
+        android:text="ini type senjata"
+        android:id="@+id/Magazine"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textReloadTime"
+        android:layout_below="@+id/textMagazine"
+        android:layout_marginTop="10dp"
+        android:text="Reload Time  :"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textType"
+        android:layout_below="@id/Magazine"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="8dp"
+        android:text="ini type senjata"
+        android:id="@+id/ReloadTime"
+        />
+
+
+</RelativeLayout>
